@@ -3,7 +3,7 @@
 <suite name="TestSuite" >
 <test name="testGuru">
 <classes>
-<class name="src/main/MultipleSessions"> </class>
+<class name="main.MultipleSessions"> </class>
 </classes>
 </test>
 </suite>

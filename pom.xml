@@ -46,7 +46,8 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.0.0-M3</version>
                 <configuration>
-                    <suiteXmlFiles>
+                <useSystemClassLoader>false</useSystemClassLoader>
+                    <suiteXmlFiles>                     
                         <suiteXmlFile>TestNG.xml</suiteXmlFile>
                     </suiteXmlFiles>
                  </configuration>
