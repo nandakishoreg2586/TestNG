@@ -28,7 +28,7 @@ public class MultipleSessions {
 			driver.findElement(By.name("ctl00$ContentPlaceHolder1$Login2$txtPassword")).sendKeys("Nkjune@1");	
             
         }
-        
+     //New commit   
     @Test (enabled =true)   
         public void executeSessionTwo(){
             //Second session of WebDriver
